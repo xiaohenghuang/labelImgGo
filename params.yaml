@@ -1,0 +1,9 @@
+yolo:
+  imgsz: 2112 #640
+  conf-thres: 0.25 # defaul from yolov5
+  iou-thres: 0.45  # default of yolov5
+  # save-path: 'D:\FinalProject\code\semi_auto_wk22_wk23' #'D:\FinalProject\code\daisy_and_dandelion - Copy' #'runs/detect'
+  run-name: 'test1'
+
+labelImg:
+  class-file: 'customized_classes.txt'
